@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+    livestate-comments::part(comment-text) {
+      color: red;
+    }
+  </style>
+  
+  <script type="module" crossorigin src="https://unpkg.com/livestate-comments"></script>
+</head>
+<body>
+  <main>
+    This is my lovely website. Nothing up my sleeve
+  </main>
+  <livestate-comments url="wss://livestate-comments.herokuapp.com/socket"></livestate-comments>
+</body>
+</html>
