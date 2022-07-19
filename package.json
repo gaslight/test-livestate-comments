@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2",
-    "livestate-comments": "^0.0.3"
+    "live-server": "^1.2.2"
   }
 }
